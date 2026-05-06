@@ -1,4 +1,4 @@
-let val = 3;
+let val = 9;
 const removeElement = (arr) => {
   let x = 0;
   for (let i = 0; i < arr.length; i++) {
@@ -9,5 +9,5 @@ const removeElement = (arr) => {
   }
   return x;
 };
-let arr = [3, 4, 3, 3, 6, 8];
+let arr = [3, 4, 3, 3, 6, 8, 9];
 const res = console.log(removeElement(arr));
